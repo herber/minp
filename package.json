@@ -1,0 +1,38 @@
+{
+  "name": "minp",
+  "version": "1.0.0",
+  "description": "A minimal promise polyfill",
+  "license": "MIT",
+  "repository": "tobihrbr/minp",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "fyi",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "polyfill",
+    "callback",
+    "minimal",
+    "small",
+    "tiny"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.13.1",
+    "fyi": "^1.0.1",
+    "nyc": "^11.1.0"
+  }
+}
