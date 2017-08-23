@@ -19,7 +19,7 @@ $ npm install --save minp
 ### Browsers
 
 ```html
-<script src="https://unpkg.com/minp" />
+<script src="https://unpkg.com/minp"></script>
 ```
 
 ## Usage
