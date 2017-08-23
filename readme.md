@@ -10,8 +10,16 @@ If you cannot rely on native promises and you can't use a huge promise polyfill 
 
 ## Install
 
+### Node.js
+
 ```
 $ npm install --save minp
+```
+
+### Browsers
+
+```
+<script src="https://unpkg.com/minp" />
 ```
 
 ## Usage
