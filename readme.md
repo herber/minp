@@ -12,13 +12,13 @@ If you cannot rely on native promises and you can't use a huge promise polyfill 
 
 ### Node.js
 
-```
+```bash
 $ npm install --save minp
 ```
 
 ### Browsers
 
-```
+```html
 <script src="https://unpkg.com/minp" />
 ```
 
