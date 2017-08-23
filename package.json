@@ -9,16 +9,20 @@
     "email": "tobihrbr@gmail.com",
     "url": "tobihrbr.com"
   },
+  "main": "./index.js",
+  "browser": "./dist/bundle.js",
   "engines": {
     "node": ">=6"
   },
   "scripts": {
     "test": "nyc ava",
     "lint": "fyi",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "build": "rollup -c"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "dist"
   ],
   "keywords": [
     "promise",
@@ -31,8 +35,13 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "fyi": "^1.0.1",
-    "nyc": "^11.1.0"
+    "nyc": "^11.1.0",
+    "rollup": "^0.48.2",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-babel-minify": "^3.1.2"
   }
 }
