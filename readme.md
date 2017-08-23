@@ -6,7 +6,7 @@ If you cannot rely on native promises and you can't use a huge promise polyfill 
 
 ## About
 
-`Minp` is a barebones promise polyfill it does not nearly cover the whole promise [specification](https://promisesaplus.com/) but it is really tiny(<30 loc). `Minp` is meant to be used in libraries that want to offer promise goodness to every use without shipping huge polyfills.
+`Minp` is a barebones promise polyfill it does not nearly cover the whole promise [specification](https://promisesaplus.com/) but it is really tiny(<30 loc). `Minp` is meant to be used in libraries that want to offer promise goodness to everyone without having to ship huge polyfills.
 
 ## Install
 
