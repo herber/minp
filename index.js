@@ -1,6 +1,6 @@
-module.exports = typeof Promise === 'function' ? Promise : class {
+module.exports = class {
 	constructor(fn) {
-		if (typeof fn !== 'function') throw new Error('Resolvable must be a function.');
+		if (typeof fn !== 'function') throw new Error('Promise resolver string is not a function');
 
 		const toArray = array => {
 		  if (array instanceof Array) return array;

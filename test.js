@@ -161,6 +161,6 @@ test('Throws exception if resolvable is not a function', t => {
 	try {
 		fn()
 	} catch(err) {
-		t.is(err.message, 'Resolvable must be a function.');
+		t.is(err.message, 'Promise resolver string is not a function');
 	}
 });
