@@ -1,4 +1,4 @@
-module.exports = class {
+module.exports = typeof Promise === 'function' ? Promise : class {
 	constructor(fn) {
 		if (typeof fn !== 'function') throw new Error('Resolvable must be a function.');
 
