@@ -1,6 +1,6 @@
 # minp [![Codestyle fyi](https://img.shields.io/badge/code%20style-fyi-E91E63.svg)](https://github.com/tobihrbr/fyi) [![Build Status](https://travis-ci.org/tobihrbr/minp.svg?branch=master)](https://travis-ci.org/tobihrbr/minp) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/xgckpx9bajrvcli8?svg=true)](https://ci.appveyor.com/project/tobihrbr/minp) [![Coverage Status](https://coveralls.io/repos/github/tobihrbr/minp/badge.svg?branch=master)](https://coveralls.io/github/tobihrbr/minp?branch=master)
 
-> A minimal promise polyfill
+> A minimal promise polyfill.
 
 If you cannot rely on native promises and you can't use a huge promise polyfill then `minp` has got you covered!
 
